@@ -1,0 +1,3 @@
+Based on the value, one might guess that a listerners value of their arua gives a guess to what other similar songs with similar aura be their favorite genre.
+
+An aura is simply based on numbers of other components that don't take into account the genre. An edm song might be similar aura to metal for example.

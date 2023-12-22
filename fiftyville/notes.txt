@@ -1,0 +1,108 @@
+# Notes about the crime scene report
+Theft of the CS50 duck took place at 10:15am at the Humphrey Street bakery. Interviews were conducted today with three witnesses who were present at the time – each of their interview transcripts mentions the bakery.
+date = 7/8/2021
+
+# Transcripts from interviews about the crime scene
+| Ruth    | Sometime within ten minutes of the theft, I saw the thief get into a car in the bakery parking lot and drive away. If you have security footage from the bakery parking lot, you might want to look for cars that left the parking lot in that time frame.                                                          |
+| Eugene  | I don't know the thief's name, but it was someone I recognized. Earlier this morning, before I arrived at Emma's bakery, I was walking by the ATM on Leggett Street and saw the thief there withdrawing some money.                                                                                                 |
+| Raymond | As the thief was leaving the bakery, they called someone who talked to them for less than a minute. In the call, I heard the thief say that they were planning to take the earliest flight out of Fiftyville tomorrow. The thief then asked the person on the other end of the phone to purchase the flight ticket. |
+
+# Cars that left within the time of the crime
+| 5P2BI95       | exit     | 10   | 16     |
+| 94KL13X       | exit     | 10   | 18     |
+| 6P58WS2       | exit     | 10   | 18     |
+| 4328GD8       | exit     | 10   | 19     |
+| G412CB7       | exit     | 10   | 20     |
+| L93JTIZ       | exit     | 10   | 21     |
+| 322W7JE       | exit     | 10   | 23     |
+| 0NTHK55       | exit     | 10   | 23     |
+
+# Cars that arrived before the crime took place
+| 4328GD8       | entrance | 9    | 14     |
+| 5P2BI95       | entrance | 9    | 15     |
+| 6P58WS2       | entrance | 9    | 20     |
+| G412CB7       | entrance | 9    | 28     |
+
+# Refining the two previous logs and displaying the car owners name
+| Luca    | 4328GD8       | entrance | 9    | 14     |
+| Vanessa | 5P2BI95       | entrance | 9    | 15     |
+| Barry   | 6P58WS2       | entrance | 9    | 20     |
+| Sofia   | G412CB7       | entrance | 9    | 28     |
+| Brandon | R3G7486       | entrance | 10   | 8      |
+| Sophia  | 13FNH73       | entrance | 10   | 14     |
+| Vanessa | 5P2BI95       | exit     | 10   | 16     |
+| Bruce   | 94KL13X       | exit     | 10   | 18     |
+| Barry   | 6P58WS2       | exit     | 10   | 18     |
+| Luca    | 4328GD8       | exit     | 10   | 19     |
+| Sofia   | G412CB7       | exit     | 10   | 20     |
+| Iman    | L93JTIZ       | exit     | 10   | 21     |
+| Diana   | 322W7JE       | exit     | 10   | 23     |
+| Kelsey  | 0NTHK55       | exit     | 10   | 23     |
+
+# Phones call during the day of crime that lasted less than 70 seconds
+# Caller & Receiver & Duration
+| (130) 555-0289 | (996) 555-8899 | 51       |
+| (499) 555-9472 | (892) 555-8872 | 36       |
+| (367) 555-5533 | (375) 555-8161 | 45       |
+| (609) 555-5876 | (389) 555-5198 | 60       |
+| (636) 555-4198 | (670) 555-8598 | 69       |
+| (499) 555-9472 | (717) 555-1342 | 50       |
+| (286) 555-6063 | (676) 555-6554 | 43       |
+| (770) 555-1861 | (725) 555-3243 | 49       |
+| (669) 555-6918 | (971) 555-6468 | 67       |
+| (031) 555-6622 | (910) 555-3251 | 38       |
+| (751) 555-6567 | (594) 555-6254 | 61       |
+| (826) 555-1652 | (066) 555-9701 | 55       |
+| (338) 555-6650 | (704) 555-2131 | 54       |
+
+# Update previous log to show people's names instead
+| Sofia   | Jack       | 51       |
+| Kelsey  | Larry      | 36       |
+| Bruce   | Robin      | 45       |
+| Kathryn | Luca       | 60       |
+| Jason   | Amy        | 69       |
+| Kelsey  | Melissa    | 50       |
+| Taylor  | James      | 43       |
+| Diana   | Philip     | 49       |
+| Harold  | Daniel     | 67       |
+| Carina  | Jacqueline | 38       |
+| Peter   | Ethan      | 61       |
+| Kenny   | Doris      | 55       |
+| Benista | Anna       | 54       |
+
+# Accounts that withdrawed money the day of the crime at Leggett Street
+| 28500762       | 48     |
+| 28296815       | 20     |
+| 76054385       | 60     |
+| 49610011       | 50     |
+| 16153065       | 80     |
+| 25506511       | 20     |
+| 81061156       | 30     |
+| 26013199       | 35     |
+
+# Names of owners of bank account who took out money from previous log
+| Bruce   | 49610011       |
+| Diana   | 26013199       |
+| Brooke  | 16153065       |
+| Kenny   | 28296815       |
+| Iman    | 25506511       |
+| Luca    | 28500762       |
+| Taylor  | 76054385       |
+| Benista | 81061156       |
+
+# People who were on a flight the next morning after the crime
+| Doris     | Fiftyville | New York City | 8    | 20     |
+| Sofia     | Fiftyville | New York City | 8    | 20     |
+| Bruce     | Fiftyville | New York City | 8    | 20     |
+| Edward    | Fiftyville | New York City | 8    | 20     |
+| Kelsey    | Fiftyville | New York City | 8    | 20     |
+| Taylor    | Fiftyville | New York City | 8    | 20     |
+| Kenny     | Fiftyville | New York City | 8    | 20     |
+| Luca      | Fiftyville | New York City | 8    | 20     |
+| Daniel    | Fiftyville | Chicago       | 9    | 30     |
+| Carol     | Fiftyville | Chicago       | 9    | 30     |
+| Rebecca   | Fiftyville | Chicago       | 9    | 30     |
+| Sophia    | Fiftyville | Chicago       | 9    | 30     |
+| Heather   | Fiftyville | Chicago       | 9    | 30     |
+| Marilyn   | Fiftyville | Chicago       | 9    | 30     |
+
